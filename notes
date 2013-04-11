@@ -1,0 +1,12 @@
+
+comparing a 800*800 to a 2400*2400 image takes 372s with the psadbw x86
+instruction
+
+** assuming each pixel is an 8-bit byte. (greyscaled)
+
+#define N 1280*960
+#define M 64*64
+
+2.85 seconds
+
+
